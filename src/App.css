@@ -1,0 +1,19 @@
+:global html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+button.btn {
+  box-shadow: none;
+}
+
+.App {
+  height: 100vh;
+  padding: 30px;
+}
+
+
+

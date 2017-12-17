@@ -1,0 +1,18 @@
+
+.Spinner {
+    margin: 20px 0 25px 0;
+}
+
+.Spinner__anim {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
